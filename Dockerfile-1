@@ -1,0 +1,3 @@
+FROM node
+RUN echo "dockerfile1"
+CMD echo "dockerfile1" && printenv
